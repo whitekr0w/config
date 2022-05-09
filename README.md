@@ -1,2 +1,2 @@
-# config
-Just a repo with config files for terminals, colors, fonts, and such.
+# Configuration
+This is a repo that contains configuration files for my terminals and such. It's not much.
