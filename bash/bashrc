@@ -15,7 +15,6 @@ shopt -s checkwinsize
 # Make less more friendly for non-ascii input files.
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
-
 # Set root or user prompt. 
 if [ $(id -u) -eq 0 ];
 then # Root
