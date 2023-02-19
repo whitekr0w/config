@@ -35,6 +35,11 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
+# Gets specified interface IP address
+getip () {
+   ip addr show $1 | grep -oP "(?<=inet\s)\d+(\.\d+){3}"
+}
+
 # Alias definitions stored in ~/.bash_aliases.
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
